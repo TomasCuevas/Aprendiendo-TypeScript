@@ -1,9 +1,13 @@
-const msg: string = "Hola Mundo!";
-const hero = {
-  name: "Iron Man",
-  age: 45,
-};
+const a: Number = 10;
+let b: Number = 10;
 
-hero.age = 50;
+function sayHello(msg: String) {
+  console.log("Bienvenido " + msg + ".");
+}
 
-console.log(hero.age + 1);
+sayHello("Tomas");
+
+(() => {
+  const a: Number = 50;
+  console.log(a);
+})();
