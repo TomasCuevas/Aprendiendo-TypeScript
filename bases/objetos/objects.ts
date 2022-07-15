@@ -10,15 +10,14 @@
     powers: ["volar", "super fuerza"],
   };
 
-  ironman = {
+  let superman: {
+    name: string;
+    age?: number;
+    powers: string[];
+    getName?: () => string;
+  } = {
     name: "Clark Kent",
-    // age: 60,
-    powers: ["super fuerza"],
-
-    getName() {
-      return this.name;
-    },
+    age: 60,
+    powers: ["volar", "super fuerza"],
   };
-
-  console.log(ironman);
 })();
