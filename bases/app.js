@@ -11,7 +11,6 @@ const bumblebee = {
     antibalas: true,
     pasajeros: 4,
     disparar() {
-        // El metodo disparar es opcional
         console.log("Disparando");
     },
 };
@@ -43,7 +42,6 @@ const apocalipsis = {
     miembros: ["Magneto", "Tormenta", "Psylocke", "Angel"],
 };
 console.log(apocalipsis);
-// Mystique, debe poder ser cualquiera de esos dos mutantes (charles o apocalipsis)
 let mystique;
 mystique = charles;
 mystique = apocalipsis;
