@@ -1,5 +1,10 @@
 (() => {
-  let ironman: { name: string; age?: number; powers: string[] } = {
+  let ironman: {
+    name: string;
+    age?: number;
+    powers: string[];
+    getName?: () => string;
+  } = {
     name: "Tony Stark",
     age: 52,
     powers: ["volar", "super fuerza"],
@@ -10,9 +15,9 @@
     // age: 60,
     powers: ["super fuerza"],
 
-    // getNombre() {
-    //   return this.name;
-    // },
+    getName() {
+      return this.name;
+    },
   };
 
   console.log(ironman);
