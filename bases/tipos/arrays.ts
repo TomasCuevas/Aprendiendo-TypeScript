@@ -4,5 +4,5 @@
 
   villans.forEach((villan) => console.log(villan.toUpperCase()));
 
-  console.log(numbers);
+  numbers.forEach((number) => console.log(number));
 })();
