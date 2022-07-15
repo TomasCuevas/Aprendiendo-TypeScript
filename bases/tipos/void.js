@@ -11,3 +11,4 @@
     const b = callBatman();
     console.log(b);
 })();
+//# sourceMappingURL=void.js.map

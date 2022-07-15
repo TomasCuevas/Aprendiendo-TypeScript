@@ -6,3 +6,4 @@
     const ironman = fullName("Tony", "El Vaquero", "Stark");
     console.log(ironman);
 })();
+//# sourceMappingURL=args-rest.js.map

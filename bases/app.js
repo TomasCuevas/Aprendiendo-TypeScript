@@ -15,6 +15,7 @@ const bumblebee = {
         console.log("Disparando");
     },
 };
+console.log("paso por aqui");
 const villanos = [
     {
         nombre: "Lex Luthor",
@@ -32,6 +33,7 @@ const villanos = [
         mutante: true,
     },
 ];
+console.log("paso por aca");
 const charles = {
     poder: "psiquico",
     estatura: 1.78,
@@ -40,7 +42,9 @@ const apocalipsis = {
     lider: true,
     miembros: ["Magneto", "Tormenta", "Psylocke", "Angel"],
 };
+console.log(apocalipsis);
 // Mystique, debe poder ser cualquiera de esos dos mutantes (charles o apocalipsis)
 let mystique;
 mystique = charles;
 mystique = apocalipsis;
+//# sourceMappingURL=app.js.map

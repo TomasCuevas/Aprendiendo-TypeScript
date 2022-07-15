@@ -11,3 +11,4 @@
         powers: ["volar", "super fuerza"],
     };
 })();
+//# sourceMappingURL=objects.js.map

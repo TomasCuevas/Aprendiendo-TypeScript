@@ -25,6 +25,8 @@ const bumblebee: Vehiculo = {
   },
 };
 
+console.log("paso por aqui");
+
 // Villanos debe de ser un arreglo de objetos personalizados
 type Villano = {
   nombre: string;
@@ -50,6 +52,8 @@ const villanos: Villano[] = [
   },
 ];
 
+console.log("paso por aca");
+
 // Multiples tipos
 // cree dos tipos, uno para charles y otro para apocalipsis
 type Charles = {
@@ -71,6 +75,8 @@ const apocalipsis: Apocalipsis = {
   lider: true,
   miembros: ["Magneto", "Tormenta", "Psylocke", "Angel"],
 };
+
+console.log(apocalipsis);
 
 // Mystique, debe poder ser cualquiera de esos dos mutantes (charles o apocalipsis)
 let mystique: Charles | Apocalipsis;

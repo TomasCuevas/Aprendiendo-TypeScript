@@ -5,3 +5,4 @@
     villans.forEach((villan) => console.log(villan.toUpperCase()));
     console.log(numbers);
 })();
+//# sourceMappingURL=arrays.js.map
