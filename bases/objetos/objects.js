@@ -7,7 +7,11 @@
     };
     ironman = {
         name: "Clark Kent",
-        age: 60,
+        // age: 60,
         powers: ["super fuerza"],
+        // getNombre() {
+        //   return this.name;
+        // },
     };
+    console.log(ironman);
 })();
