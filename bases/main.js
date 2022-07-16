@@ -18,11 +18,7 @@
   }
   const wolverine = new Xmen("Wolverine", "Logan");
   const magneto = new Villian("Magneto", "Magnus");
-  console.log(wolverine.salvarMundo());
-  console.log(magneto.conquistarMundo());
-  const printName = (character) => {
-    console.log(character.name);
-  };
+  const printName = (character) => {};
   printName(wolverine);
 })();
 (() => {
@@ -70,5 +66,28 @@
     }
   }
   const wolverine = new XMen("Wolverine", "Logan", true);
+})();
+(() => {
+  class Apocalipsis {
+    constructor(name) {
+      this.name = name;
+    }
+    static callApocalipsis() {
+      if (!Apocalipsis.intance) {
+        Apocalipsis.intance = new Apocalipsis("Soy apocalipsis... el unico");
+      }
+      return Apocalipsis.intance;
+    }
+    changeName(newName) {
+      this.name = newName;
+    }
+  }
+  const apocalipsis1 = Apocalipsis.callApocalipsis();
+  apocalipsis1.changeName("Tomas");
+  console.log(apocalipsis1);
+  const apocalipsis2 = Apocalipsis.callApocalipsis();
+  console.log(apocalipsis2);
+  const apocalipsis3 = Apocalipsis.callApocalipsis();
+  console.log(apocalipsis3);
 })();
 //# sourceMappingURL=main.js.map
