@@ -1,4 +1,9 @@
-import { Hero } from "./classes/Hero";
+import * as HeroClasses from "./classes/Hero";
+import powers, { Power } from "./data/powers";
 
-const ironman = new Hero("Iron Man", 2, 52);
+const Hero = 123;
+
+const ironman = new HeroClasses.Hero("Iron Man", 1, 52);
+
 console.log(ironman);
+console.log(powers);
