@@ -48,4 +48,13 @@
         name: "Sorana",
     };
 })();
+(() => {
+    let addNumbersFunctionLet;
+    addNumbersFunctionLet = (a, b) => {
+        return a + b;
+    };
+    const addNumbersFunctionConst = (a, b) => {
+        return a + b;
+    };
+})();
 //# sourceMappingURL=main.js.map
