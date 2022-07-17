@@ -1,60 +1,38 @@
 "use strict";
-(() => {
-    let ironman = {
-        name: "Tony Stark",
-        age: 52,
-        powers: [1, 2],
-    };
-    let superman = {
-        name: "Clark Kent",
-        age: 60,
-        powers: [1, 2],
-        getName() {
-            return this.name;
-        },
-    };
-})();
-(() => {
-    class Mutant {
-        constructor(name, realName, age) {
-            this.name = name;
-            this.realName = realName;
-            this.age = age;
-        }
-        mutantPower(id) {
-            return this.name;
-        }
+const conducirBatimovil = (auto) => {
+    auto.encender = true;
+    auto.velocidadMaxima = 100;
+    auto.acelerar();
+};
+const batimovil = {
+    encender: false,
+    velocidadMaxima: 0,
+    acelerar() {
+        console.log("...... gogogo!!!");
+    },
+};
+const guason = {
+    reir: true,
+    comer: true,
+    llorar: false,
+};
+const reir = (guason) => {
+    if (guason.reir) {
+        console.log("JAJAJAJA");
     }
-})();
-(() => {
-    const client = {
-        address: {
-            city: "Vera",
-            cp: 3550,
-            number: 2823,
-            street: "Belgrano",
-        },
-        age: 22,
-        name: "Tomas",
-    };
-    const client2 = {
-        address: {
-            city: "San Francisco",
-            cp: 2330,
-            number: 5320,
-            street: "Av. Street",
-        },
-        age: 20,
-        name: "Sorana",
-    };
-})();
-(() => {
-    let addNumbersFunctionLet;
-    addNumbersFunctionLet = (a, b) => {
-        return a + b;
-    };
-    const addNumbersFunctionConst = (a, b) => {
-        return a + b;
-    };
-})();
+};
+const ciudadGotica = (ciudadanos) => {
+    return ciudadanos.length;
+};
+class Persona {
+    constructor(nombre, edad, sexo, estadoCivil) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.sexo = sexo;
+        this.estadoCivil = estadoCivil;
+    }
+    imprimirBio() {
+        console.log(`Nombre: ${this.nombre}, Edad: ${this.edad}, Sexo: ${this.sexo}, Estado Civil: ${this.estadoCivil}`);
+    }
+}
 //# sourceMappingURL=main.js.map
