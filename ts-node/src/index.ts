@@ -1,10 +1,4 @@
+import { Hero } from "./classes/Hero";
 
-
-console.log('Hola Mundo!');
-
-
-
-
-
-
-
+const ironman = new Hero("Iron Man", 2, 52);
+console.log(ironman);
