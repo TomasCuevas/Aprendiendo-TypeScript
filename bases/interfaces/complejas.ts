@@ -2,6 +2,7 @@
   interface Client {
     address?: Address;
     age: number;
+    getFullAddress?(): string;
     name: string;
   }
 
