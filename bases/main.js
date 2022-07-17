@@ -1,38 +1,13 @@
 "use strict";
-const conducirBatimovil = (auto) => {
-    auto.encender = true;
-    auto.velocidadMaxima = 100;
-    auto.acelerar();
-};
-const batimovil = {
-    encender: false,
-    velocidadMaxima: 0,
-    acelerar() {
-        console.log("...... gogogo!!!");
-    },
-};
-const guason = {
-    reir: true,
-    comer: true,
-    llorar: false,
-};
-const reir = (guason) => {
-    if (guason.reir) {
-        console.log("JAJAJAJA");
-    }
-};
-const ciudadGotica = (ciudadanos) => {
-    return ciudadanos.length;
-};
-class Persona {
-    constructor(nombre, edad, sexo, estadoCivil) {
-        this.nombre = nombre;
-        this.edad = edad;
-        this.sexo = sexo;
-        this.estadoCivil = estadoCivil;
-    }
-    imprimirBio() {
-        console.log(`Nombre: ${this.nombre}, Edad: ${this.edad}, Sexo: ${this.sexo}, Estado Civil: ${this.estadoCivil}`);
-    }
-}
+var Validations;
+(function (Validations) {
+    Validations.validateText = (text) => {
+        return text.length > 3 ? true : false;
+    };
+    Validations.validateDate = (myDate) => {
+        return isNaN(myDate.valueOf()) ? false : true;
+    };
+})(Validations || (Validations = {}));
+console.log(Validations.validateText("Tomas"));
+console.log(Validations.validateDate(112312312));
 //# sourceMappingURL=main.js.map
