@@ -19,11 +19,11 @@
 
   const apocalipsis1 = Apocalipsis.callApocalipsis();
   apocalipsis1.changeName("Tomas");
-  console.log(apocalipsis1);
+  // console.log(apocalipsis1);
 
   const apocalipsis2 = Apocalipsis.callApocalipsis();
-  console.log(apocalipsis2);
+  // console.log(apocalipsis2);
 
   const apocalipsis3 = Apocalipsis.callApocalipsis();
-  console.log(apocalipsis3);
+  // console.log(apocalipsis3);
 })();
