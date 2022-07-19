@@ -5,4 +5,5 @@ console.log(charmander);
 
 // (Pokemon.prototype as any).customName = "Pikachu";
 
-charmander.savePokemonToDB(800);
+// charmander.savePokemonToDB(800);
+// charmander.publicApi = "https://encuentraalamor.com";
